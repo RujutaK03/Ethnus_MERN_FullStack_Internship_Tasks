@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+}
+
+.buttons {
+    margin-left: -10px;
+    margin-top: 20px;
+    width: 100px;
+}
+
+button {
+    width: 55px;
+    height: 55px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+#button1 {
+    background-color: green;
+}
+
+#button2 {
+    background-color: blue;
+}
+
+#button3 {
+    background-color: crimson;
+}
+
+#button4 {
+    background-color: saddlebrown;
+}
+
+.content p {
+    font-size: large;
+}

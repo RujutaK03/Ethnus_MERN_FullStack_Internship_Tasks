@@ -1,0 +1,55 @@
+.table_container1 table {
+    background-color: lightblue;
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px auto 20px auto;
+}
+
+.table_container1 th {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.table_container1 td {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.table_container2 table {
+    padding-top: 20px;
+    background-color: white;
+    border-collapse: separate;
+    border-spacing: 20px;
+    margin: 0px auto 0px auto;
+}
+
+.table_container2 td {
+    border: 2px solid green;
+    width: 60px;
+    height: 40px;
+}
+
+#type1 {
+    border-radius: 5px;
+}
+
+#type2 {
+    border-radius: 8px;
+}
+
+
+#type3 {
+    border-radius: 15px;
+}
+
+
+#type4 {
+    border-radius: 50%;
+}
+
+#type5 {
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}

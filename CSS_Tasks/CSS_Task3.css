@@ -1,0 +1,38 @@
+table {
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid lightgrey;
+    border-collapse: collapse;
+}
+
+th {
+    color: white;
+    background-color: rgb(67, 192, 121);
+    padding-left: 10px;
+    height: 30px;
+}
+
+td {
+    height: 30px;
+    padding-left: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(235, 230, 230);
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+}
+
+#col1 {
+    width: 500px;
+}
+
+#col2 {
+    width: 350px;
+}
+
+#col3 {
+    width: 200px;
+}
