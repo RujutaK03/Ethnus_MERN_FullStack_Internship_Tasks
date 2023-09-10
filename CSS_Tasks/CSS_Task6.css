@@ -1,0 +1,79 @@
+div {
+    margin: 20px auto 0px auto;
+}
+
+img {
+    display: block;
+    margin: 100px auto 0px auto;
+    width: 250px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 35%;
+}
+
+input {
+    width: 450px;
+    height: 30px;
+    border: 2px solid lightgrey;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 35%;
+}
+
+button {
+    width: 465px;
+    height: 35px;
+    background-color: limegreen;
+    border: none;
+    color: white;
+    font-weight: bold;
+    margin-left: 35%;
+}
+
+.Select_option {
+    display: flex;
+}
+
+.Select_option input {
+    width: 15px;
+    margin-right: 10px;
+}
+
+.Select_option label {
+    font-weight: lighter;
+    font-size: 15px;
+    margin-top: 10px;
+    padding-left: 5px;
+}
+
+.ending {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgrey;
+    width: 465px;
+    margin-left: 35%;
+}
+
+.ending button {
+    background-color: red;
+    width: 80px;
+    border: none;
+    border-radius: 5px;
+    align-self: flex-start;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.ending p {
+    align-self: flex-end;
+}
+
+.ending a {
+    margin-right: 10px;
+    color: black;
+}

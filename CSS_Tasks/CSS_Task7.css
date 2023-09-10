@@ -1,0 +1,41 @@
+body {
+    background-color: mediumvioletred;
+}
+
+div {
+    background-color: purple;
+    margin: 50px 200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+table {
+    width: 600px;
+    line-height: 40px;
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+td,
+label {
+    color: white;
+}
+
+input {
+    height: 20px;
+}
+
+select {
+    height: 30px;
+}
+
+button {
+    width: 500px;
+    height: 30px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+}
