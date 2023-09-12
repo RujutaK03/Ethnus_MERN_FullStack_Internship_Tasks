@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+}
+
+div {
+    margin: 10px 100px 0px 10px;
+}
+
+table {
+    border: 2px solid black;
+    border-spacing: 10px 0px;
+}
+
+tr {
+    background-color: lightblue;
+}
+
+th {
+    height: 15px;
+    width: 150px;
+    background-color: white;
+}
+
+td {
+    height: 30px;
+    width: 150px;
+    padding-left: 20px;
+}
+
+a {
+    font-size: larger;
+    text-decoration: none;
+}
+
+td:hover {
+    background-color: gold;
+}
+
+.horz table {
+    border: 2px solid black;
+    border-spacing: 0px 10px;
+}
+
+.horz tr {
+    background-color: lightgrey;
+    align-items: center;
+}
+
+.horz td {
+    width: 100px;
+    border-right: 2px solid blue;
+}
+
+.horz td:hover {
+    background-color: grey;
+}
